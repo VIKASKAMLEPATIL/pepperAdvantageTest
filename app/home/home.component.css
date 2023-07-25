@@ -1,0 +1,7 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.tableBg {
+    background: linear-gradient(0deg, #411941, #411941);
+}

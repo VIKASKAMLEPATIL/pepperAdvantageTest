@@ -1,0 +1,25 @@
+
+<div class="flex-container p-4">
+    <h5 class="p-4">Welcome Back User 01!</h5>
+    <table class="table text-center">
+        <thead>
+            <tr class="tableBg">
+                <th class="text-white"style="width: 120px;">Feedback List</th>
+                <th></th>
+                <th></th>
+                <th><button class="btn"><a routerLink="/feedback"><img src="../../assets/Button.png" alt=""></a></button></th>
+            </tr>
+        </thead>
+        <tbody class="p-4">
+            <tr *ngFor="let user of user">
+                <td><img src="{{ user.image1 }}" alt=""></td>
+                <td>{{user.description}}</td>
+                <td><img src="{{ user.image2 }}" alt=""></td>
+                <td>{{user.date}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+   

@@ -1,0 +1,31 @@
+<div class="flex-container">
+    <div>Add New Feedback</div>
+    <div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a routerLink="/home">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Feedback Form</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+ <form [formGroup]="feedbackForm" (ngSubmit)="submitFeedback()">
+    <div class="container-fluid">
+        <p>Feedback Form</p>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Feedback Input</label>
+            <textarea formControlName="feedback" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+    <div>
+        <app-star-rating formControlName="rating"></app-star-rating>
+    </div>
+
+          <div>
+            <button type="reset" class="btn bg-light m-2">Back</button>
+            <button type="submit" class="submit btn" [disabled]="!feedbackForm.valid">Submit</button>
+          </div>
+
+         
+          
+    </div>
+ </form>

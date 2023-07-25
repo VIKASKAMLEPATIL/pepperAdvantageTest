@@ -1,0 +1,23 @@
+.tableBg {
+    background: linear-gradient(0deg, #411941, #411941);
+}
+
+.aside {
+    width: 240px;
+    height: 669px;
+    top: -788px;
+    left: -11222px;
+    padding: 0px 0px 565px 0px;
+    background: white;
+
+
+}
+
+.close{
+    position: absolute; 
+    left: 210px;
+}
+
+.flex-container{
+    display:flex;
+}

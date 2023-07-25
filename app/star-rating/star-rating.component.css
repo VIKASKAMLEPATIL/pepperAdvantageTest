@@ -1,0 +1,33 @@
+/* CSS for star rating */
+.rating {
+    display: inline-block;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+  }
+  
+  .rating label:before {
+    content: '★';
+  }
+  
+  .rating label:hover:before,
+  .rating label:hover ~ label:before {
+    content: '★';
+    color: gold;
+  }
+  
+  .rating input:checked ~ label:before {
+    content: '★';
+    color: gold;
+  }
+  
