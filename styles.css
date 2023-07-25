@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+/* body{
+    color: red;
+    
+} */
+
+/* .line {
+    flex: 1 0 0;
+    color: #DF0024;
+    width: 41.76871490478519px;
+    top: -0.00006103515625px;
+    left: 122.8955078125px;
+    border: 1.3922903537750244px;
+    rotate: -90 deg;
+} */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
