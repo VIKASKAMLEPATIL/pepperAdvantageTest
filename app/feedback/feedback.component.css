@@ -5,10 +5,22 @@
     padding-top: 30px;
 }
 .active{
-    color: red;
+    color:#DF0024;
 }
-.submit{
-    background: rgba(65, 25, 65, 1);
+.btn-purple {
+    color: #411941;
+    border-color: #411941;
+  }
+  .btn-purple:hover {
+    background-color: #411941;
     color: white;
-
-}
+  }
+  .submit{
+    color: white;
+    background-color: #411941;
+  }
+  .buttonBlock{
+    text-align: center;
+    justify-content: space-around;
+    align-self:center;
+  }
