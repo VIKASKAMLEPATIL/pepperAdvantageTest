@@ -1,0 +1,9 @@
+.container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navIcon a {
+    margin-right: 10px; /* Adjust the value to set the desired space between the icons */
+  }

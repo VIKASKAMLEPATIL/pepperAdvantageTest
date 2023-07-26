@@ -81,8 +81,11 @@ h1 {
 
 }
 
-/* .logo{
-    padding-top: 10px;
-} */
+.logo{
+    text-align: center;
+}
+.logo a {
+    padding-left: 0px;
+}
 
 
